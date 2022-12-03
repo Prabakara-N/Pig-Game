@@ -15,12 +15,10 @@ body {
   /* Set 1rem = 10px */
   font-size: 62.5%;
   font-family: var(--font);
-  background: linear-gradient(
-    to top left,
-    #d187a4 0%,
-    #6c2a98 50%,
-    #2716bd 100%
-  );
+  background-image: url(../images/BG\ img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
   color: var(--font-color);
   line-height: 1.5;
   padding: 0 1rem;
@@ -52,7 +50,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  color: var(--font-color-dark);
+  color: yellow;
   padding-bottom: 1rem;
 }
 
